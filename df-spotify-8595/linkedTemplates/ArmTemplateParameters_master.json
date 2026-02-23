@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "df-spotify-8595"
+		},
+		"ls_source_spotify_sql_db_password": {
+			"value": ""
+		},
+		"ls_target_adls_gen2_accountKey": {
+			"value": ""
+		},
+		"ls_source_spotify_sql_db_properties_typeProperties_server": {
+			"value": "spotifydataprojectshubham.database.windows.net"
+		},
+		"ls_source_spotify_sql_db_properties_typeProperties_database": {
+			"value": "spotify_data_project"
+		},
+		"ls_source_spotify_sql_db_properties_typeProperties_userName": {
+			"value": "spotifydataproject"
+		},
+		"ls_target_adls_gen2_properties_typeProperties_url": {
+			"value": "https://spotifydata9927.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
